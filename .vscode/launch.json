@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            // "program": "${workspaceFolder}\\node_modules\\expo\\AppEntry.js",
+            "name": "local",
+            "request": "launch",
+            "preLaunchTask": "task: debug:local",
+            // "runtimeArgs": [
+            //     "run-script",
+            //     "debug:local"
+            // ],
+            "cwd": "${workspaceFolder}",
+            "runtimeExecutable": "npm",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        }
+    ]
+}
